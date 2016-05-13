@@ -15,6 +15,8 @@
 		EDF302AB1C0BF49800E7D2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF302A91C0BF49800E7D2A3 /* LaunchScreen.storyboard */; };
 		EDF302B61C0BF49800E7D2A3 /* DefineCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF302B51C0BF49800E7D2A3 /* DefineCellTests.m */; };
 		EDF302C11C0BF49800E7D2A3 /* DefineCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF302C01C0BF49800E7D2A3 /* DefineCellUITests.m */; };
+		EDF302D21C0BF4B200E7D2A3 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF302CF1C0BF4B200E7D2A3 /* MGSwipeButton.m */; };
+		EDF302D31C0BF4B200E7D2A3 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF302D11C0BF4B200E7D2A3 /* MGSwipeTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		EDF302BC1C0BF49800E7D2A3 /* DefineCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefineCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF302C01C0BF49800E7D2A3 /* DefineCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefineCellUITests.m; sourceTree = "<group>"; };
 		EDF302C21C0BF49800E7D2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF302CE1C0BF4B200E7D2A3 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		EDF302CF1C0BF4B200E7D2A3 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		EDF302D01C0BF4B200E7D2A3 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		EDF302D11C0BF4B200E7D2A3 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		EDF3029A1C0BF49800E7D2A3 /* DefineCell */ = {
 			isa = PBXGroup;
 			children = (
+				EDF302D41C0BF4B600E7D2A3 /* defineCell */,
 				EDF3029E1C0BF49800E7D2A3 /* AppDelegate.h */,
 				EDF3029F1C0BF49800E7D2A3 /* AppDelegate.m */,
 				EDF302A11C0BF49800E7D2A3 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				EDF302C21C0BF49800E7D2A3 /* Info.plist */,
 			);
 			path = DefineCellUITests;
+			sourceTree = "<group>";
+		};
+		EDF302D41C0BF4B600E7D2A3 /* defineCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDF302CE1C0BF4B200E7D2A3 /* MGSwipeButton.h */,
+				EDF302CF1C0BF4B200E7D2A3 /* MGSwipeButton.m */,
+				EDF302D01C0BF4B200E7D2A3 /* MGSwipeTableCell.h */,
+				EDF302D11C0BF4B200E7D2A3 /* MGSwipeTableCell.m */,
+			);
+			name = defineCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +290,9 @@
 			files = (
 				EDF302A31C0BF49800E7D2A3 /* ViewController.m in Sources */,
 				EDF302A01C0BF49800E7D2A3 /* AppDelegate.m in Sources */,
+				EDF302D21C0BF4B200E7D2A3 /* MGSwipeButton.m in Sources */,
 				EDF3029D1C0BF49800E7D2A3 /* main.m in Sources */,
+				EDF302D31C0BF4B200E7D2A3 /* MGSwipeTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
